@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+         body {
+      font-family: Arial, sans-serif;}
+         .container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;}
+      input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      box-sizing: border-box;}
+      input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: rgb(144, 141, 141);">
+        <nav>
+           <a href="1.html"> <input style="height: 40px;margin-left: 100px;margin-right: 50px;" class="btn" type="button" value="home"></a> 
+          <a href="2.html"> <input style="height: 40px;margin-right: 50px;" class="btn" type="button" value="Category"></a> 
+          <a href="3.html"> <input style="height: 40px;margin-right: 50px;" class="btn" type="button" value="Product"></a> 
+          <a href="5.html"> <input style="height: 40px;margin-right: 50px;" class="btn" type="button" value="Contact As"></a> 
+          <a href="6.html"> <input style="height: 40px;margin-right: 50px;" class="btn" type="button" value="Deal"></a> 
+          <a href="7.html"> <input style="height: 40px;margin-right: 600px;" class="btn" type="button" value="log in"></a> 
+
+            <i class="fa-solid fa-heart" style="color: #e51010;height: 20px;width: 
+            20px;cursor: pointer;"></i>
+            <i class="fa-solid fa-bell" style="height: 20px;width: 20px;cursor: pointer;"></i>
+            <i class="fa-solid fa-cart-shopping" style="height:20px;width:20px;cursor: pointer;"></i>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Registration</h2>
+        <form action="process_login.php" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <label for="password"> comfirm Password:</label>
+          <input type="password" id="password" name="password" required>
+          <label for="password">Email:</label>
+          <input type="password" id="Email" name="password" required>
+          
+
+
+
+
+         <a href="picture16.png"><input type="submit" value=" Registor"></a> 
+        </form>
+      </div>
+      
+</body>
+</html>
